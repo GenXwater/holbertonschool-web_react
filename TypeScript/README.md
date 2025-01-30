@@ -35,7 +35,8 @@ Please use these files for the following tasks
 package.json
 <details>
 <summary>Click to show/hide file contents</summary>
-```
+<pre>
+<code class="language-javascript">
 {
   "name": "typescript_dependencies",
   "version": "1.0.0",
@@ -68,13 +69,14 @@ package.json
     "webpack-dev-server": "^3.8.2"
   }
 }
-```
+</pre>
 </details>
 
 .eslintrc.js
 <details>
 <summary>Click to show/hide file contents</summary>
-```
+<pre>
+<code class="language-javascript">
 module.exports =  {
   parser:  '@typescript-eslint/parser',
   extends:  [
@@ -87,13 +89,14 @@ module.exports =  {
   rules:  {
   },
 };
-```
+</pre>
 </details>
 
 tsconfig.json
 <details>
 <summary>Click to show/hide file contents</summary>
-```
+<pre>
+<code class="language-javascript">
 {
   "compilerOptions": {
     "outDir": "./dist/",
@@ -106,13 +109,14 @@ tsconfig.json
         "skipLibCheck": true
   }
 }
-```
+</pre>
 </details>
 
 webpack.config.js
 <details>
 <summary>Click to show/hide file contents</summary>
-```
+<pre>
+<code class="language-javascript">
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -150,5 +154,5 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   }
 };
-```
+</pre>
 </details>
