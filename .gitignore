@@ -1,0 +1,8 @@
+TypeScript/.eslintrc.js
+TypeScript/dist/
+TypeScript/node_modules
+TypeScript/package-lock.json
+TypeScript/package.json
+TypeScript/tsconfig.json
+TypeScript/webpack.config.js
+TypeScript/task_0/node_modules
